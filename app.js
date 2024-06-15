@@ -12,6 +12,6 @@ coin.addEventListener('click', function(e) {
     let y = e.clientY - e.target.offsetTop;
     
     
-    degrees += Math.random() * 30;
-    coin.style.transform = "rotate(" + degrees + "deg)";
+    // degrees += Math.random() * 30;
+    // coin.style.transform = "rotate(" + degrees + "deg)";
 });
